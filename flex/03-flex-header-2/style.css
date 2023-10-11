@@ -51,3 +51,9 @@ ul {
   flex-direction: row;
   list-style-type: none;
 }
+
+.notification-button{
+  display: flex;
+  margin-left: auto;
+  flex-shrink: 0;
+}
