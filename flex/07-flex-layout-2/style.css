@@ -36,3 +36,19 @@ body {
   align-items: center;
   height: 2em;
 }
+
+.sidebar{
+  display: flex;
+  font-weight: bold;
+  color: white;
+}
+
+ul{
+  list-style: none;
+  padding: 0%;
+}
+
+a{
+  text-decoration: none;
+  color: #eee;
+}
