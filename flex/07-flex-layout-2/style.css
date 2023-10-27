@@ -31,24 +31,57 @@ body {
 /*Solution*/
 
 .header{
-  font-weight: bold;
   display: flex;
   align-items: center;
+  padding: 16px;
+  font-size: 32px;
   height: 2em;
+  font-weight: 900;
 }
 
 .sidebar{
   display: flex;
   font-weight: bold;
   color: white;
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 ul{
   list-style: none;
   padding: 0%;
+  font-size: 24px;
 }
 
 a{
   text-decoration: none;
   color: #eee;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  flex-direction: row;
+  padding: 32px;
+  gap: 16px;
+}
+
+.big-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  padding: 16px;
+  width: 300px;
+  margin: 16px;
+  font-size: 15px;
 }
